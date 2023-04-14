@@ -16,7 +16,6 @@
 		F072765929E44C3D008B561C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072765829E44C3D008B561C /* SceneDelegate.swift */; };
 		F072765B29E44C3D008B561C /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072765A29E44C3D008B561C /* TranslateViewController.swift */; };
 		F072765E29E44C3D008B561C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F072765C29E44C3D008B561C /* Main.storyboard */; };
-		F072766029E44C3E008B561C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F072765F29E44C3E008B561C /* Assets.xcassets */; };
 		F072766329E44C3E008B561C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F072766129E44C3E008B561C /* LaunchScreen.storyboard */; };
 		F0D0BA6129E6AA9100012201 /* BackwardTranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0BA6029E6AA9100012201 /* BackwardTranslationViewController.swift */; };
 		F0D0BA6329E6AAD400012201 /* HistoryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0BA6229E6AAD400012201 /* HistoryPageViewController.swift */; };
@@ -33,7 +32,6 @@
 		F072765829E44C3D008B561C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F072765A29E44C3D008B561C /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		F072765D29E44C3D008B561C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F072765F29E44C3E008B561C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F072766229E44C3E008B561C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F072766429E44C3E008B561C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D0BA6029E6AA9100012201 /* BackwardTranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardTranslationViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				F072765829E44C3D008B561C /* SceneDelegate.swift */,
 				F052BF8F29E544C100917575 /* ViewControllers */,
 				F072765C29E44C3D008B561C /* Main.storyboard */,
-				F072765F29E44C3E008B561C /* Assets.xcassets */,
 				F072766129E44C3E008B561C /* LaunchScreen.storyboard */,
 				F072766429E44C3E008B561C /* Info.plist */,
 			);
@@ -167,7 +164,6 @@
 				F0217F7C29E4500700BD1CE8 /* baby.mp4 in Resources */,
 				F0217F8029E4501700BD1CE8 /* average.mp4 in Resources */,
 				F0217F8229E4502500BD1CE8 /* bath.mp4 in Resources */,
-				F072766029E44C3E008B561C /* Assets.xcassets in Resources */,
 				F072765E29E44C3D008B561C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,6 +20,5 @@ class BackwardTranslationViewController: UIViewController , AVCapturePhotoCaptur
     }
     // MARK: - Navigation
 
-   
 
 }
