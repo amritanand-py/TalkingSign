@@ -29,6 +29,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Get Started"/>
+                                <connections>
+                                    <segue destination="q5h-br-Dvr" kind="show" id="nUA-bd-dqp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign Langauge Translation App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6K-FV-L3S">
                                 <rect key="frame" x="58" y="78" width="276" height="21"/>
@@ -55,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380.9160305343512" y="912.67605633802816"/>
+            <point key="canvasLocation" x="1381" y="1105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XMh-Kd-jbI">
@@ -243,9 +246,9 @@
         <!--Sign-->
         <scene sceneID="Xy4-Yh-bhW">
             <objects>
-                <viewController id="GeN-f8-hAd" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GeN-f8-hAd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JHt-dL-cZm">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dmi-Jm-swx">
@@ -305,13 +308,13 @@
         <!--Translate-->
         <scene sceneID="ihG-CG-P4N">
             <objects>
-                <viewController id="wiW-Ct-S1K" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wiW-Ct-S1K" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eE9-zI-0aw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="q4J-ry-ZNB">
-                                <rect key="frame" x="10" y="64" width="373" height="28"/>
+                                <rect key="frame" x="10" y="5" width="373" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="ENG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-lC-SAB">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="28"/>
@@ -336,11 +339,11 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvg-YU-B5t">
-                                <rect key="frame" x="16" y="131" width="361" height="294"/>
+                                <rect key="frame" x="16" y="72" width="361" height="377"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gIf-1C-B4M">
-                                <rect key="frame" x="15" y="499" width="363" height="34"/>
+                                <rect key="frame" x="15" y="523" width="363" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="QVw-P4-HZ5"/>
                                 </constraints>
@@ -385,9 +388,9 @@
         <!--History-->
         <scene sceneID="8wN-jk-afF">
             <objects>
-                <viewController id="I1N-dl-6T5" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="I1N-dl-6T5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lt9-j8-Bez">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="dOM-Tb-S7m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -401,7 +404,8 @@
         <!--Tab Bar Controller-->
         <scene sceneID="mqC-07-Y5U">
             <objects>
-                <tabBarController id="q5h-br-Dvr" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="q5h-br-Dvr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="unu-QP-N9Z"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="882-La-nDw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -415,7 +419,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zM4-CD-hnk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3742" y="9"/>
+            <point key="canvasLocation" x="3915" y="-185"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
